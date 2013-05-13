@@ -1,0 +1,13 @@
+name: BossRename
+main: hinadamari.bossrename.BossRename
+version: 1.0
+author: hinadamari
+commands:
+  BossRename:
+    description: BossRename command.
+    aliases: bossnm
+    usage: /<command> reload - reload rename file.
+permissions:
+  bossrename.reload:
+    description: reload BossRename config.
+    default: op
